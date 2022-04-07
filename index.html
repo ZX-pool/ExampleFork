@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-primary text-white-50">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">IT Shop</a>
+                <a class="navbar-brand" href="index.html">IT Shop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -23,23 +23,15 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 ">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admin/index.html">Admin</a>
                         </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>
                         </li>
@@ -48,6 +40,7 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-light btn-primary" type="submit">Search</button>
                     </form>
+                    <a src="order.html" class="nav-link text-white" href="order.html">Cart</a>
                 </div>
             </div>
         </nav>
@@ -55,7 +48,7 @@
     <main class="container-fluid">
         <div class="row">
 
-            <div class="col-3 p-2">
+            <div class="col-3 p-2 h-100">
                 <!-- start left block -->
                 <h1 class="fs-5 text-primary ms-2">Категорії</h1>
                 <ul class="nav flex-column fw-bold">
@@ -83,11 +76,12 @@
                       <li class="breadcrumb-item"><a href="#">Home</a></li>
                       <li class="breadcrumb-item active" aria-current="page">Library</li>
                     </ol>
-                  </nav> </div>
+                  </nav>
+               </div>
                 <!-- start right block -->
-                <div class="row d-flex justify-content-evenly gap-1" >
+                <div class="row d-flex justify-content-evenly flex-wrap" >
                     <!-- <div class="col-3"> -->
-                        <div class="card " style="width: 18rem;">
+                        <div class="card m-1 " style="width: 18rem;">
                             <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
                                 class="card-img-top w-50 " alt="...">
                             <div class="card-body">
@@ -97,9 +91,8 @@
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                    <!-- </div>
-                    <div class="col-3"> -->
-                        <div class="card w-md-25" style="width: 18rem;">
+                    
+                        <div class="card m-1" style="width: 18rem;">
                             <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
                                 class="card-img-top w-50" alt="...">
                             <div class="card-body">
@@ -109,9 +102,8 @@
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                    <!-- </div>
-                    <div class="col-3"> -->
-                        <div class="card " style="width: 18rem;">
+                    
+                        <div class="card m-1" style="width: 18rem;">
                             <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
                                 class="card-img-top w-50" alt="...">
                             <div class="card-body">
@@ -121,8 +113,48 @@
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                    </div>
+                    
+                    
                 <!-- </div> -->
+                <!-- <div class="col-3">  -->
+                    <div class="card m-1" style="width: 18rem;">
+                        <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
+                            class="card-img-top w-50" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                
+            <!-- </div> -->
+            <!-- <div class="col-3">  -->
+                <div class="card m-1" style="width: 18rem;">
+                    <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
+                        class="card-img-top w-50" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+        <!-- </div> -->
+        <!-- <div class="col-3">  -->
+            <div class="card m-1" style="width: 18rem;">
+                <img src="https://images.samsung.com/is/image/samsung/ru-sr35-ls24r350fhixci-frontblack-185294171?$2160_1728_PNG$"
+                    class="card-img-top w-50" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
                 <div class="row ">
                     <nav aria-label="..." >
                         <ul class="pagination justify-content-center">
